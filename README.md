@@ -7,7 +7,7 @@ I have been using HashCheck on Windows OS but haven't found the alternative app 
 
 2. Copy or move the workflow file into the Services folder. (you can rename the workflow file if you prefer)
 
-   /Users/<User Name>/Library/Services
+   /Users/"User Name"/Library/Services
    
 3. Choose a single file or multiple. (up to 4 or based on your display resolution)
 
