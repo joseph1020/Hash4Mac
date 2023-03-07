@@ -15,10 +15,10 @@ I have been using HashCheck on Windows OS but haven't found the alternative app 
 
 5. You should see the following information of the chosen file(s) in the dialogue box.
 
-   Filename : A name of the file
-   MD5 : 128 bit (16 Byte) MD5 hash value of the file, calculated by default 'md5' command
-   SHA1 : 160 bit (20 Byte) SHA1 hash value of the file, calcualted from default 'shasum -a 1' command
-   SHA-256 : 256 biy (32 Byte) SHA2 hash value of the file, calculated from default 'shashum -a 256' command
+   -Filename : A name of the file
+   -MD5 : 128 bit (16 Byte) MD5 hash value of the file, calculated by default 'md5' command
+   -SHA1 : 160 bit (20 Byte) SHA1 hash value of the file, calcualted from default 'shasum -a 1' command
+   -SHA-256 : 256 biy (32 Byte) SHA2 hash value of the file, calculated from default 'shashum -a 256' command
 
 6. The dialogue box will be closed once you click the OK button or leave it for 30 seconds.
 
