@@ -1,25 +1,32 @@
 # Hash4Mac
-An AppleScript Automator to calculate hash values of file(s) for MacOS.
 
-I have been using HashCheck on Windows OS but haven't found the alternative app in MacOS so I made my own Automatoe Quick Action using AppleScript.
+Hash4Mac is an Automator Quick Action that calculates file checksums in Finder. Select one or more files to view their MD5, SHA-1, and SHA-256 values in a dialog.
 
-1. Download the workflow file and unzip.
+### Features
 
-2. Copy or move the workflow file into the Services folder. (you can rename the workflow file if you prefer)
+- Calculates MD5, SHA-1, and SHA-256 checksums for selected files
+- Shows each file name and its checksum values in a dialog
+- Closes the results dialog after 30 seconds
 
-   /Users/"User Name"/Library/Services
-   
-3. Choose a single file or multiple. (up to 4 or based on your display resolution)
+## Requirements
 
-4. Click right mouse button and select "Quick Actions" then the workflow.
+- macOS with Finder and Automator
 
-5. You should see the following information of the chosen file(s) in the dialogue box.
+## Installation
 
-   * Filename : A name of the file
-   * MD5 : 128 bit (16 Byte) MD5 hash value of the file, calculated by default 'md5' command
-   * SHA1 : 160 bit (20 Byte) SHA1 hash value of the file, calcualted from default 'shasum -a 1' command
-   * SHA-256 : 256 biy (32 Byte) SHA2 hash value of the file, calculated from default 'shashum -a 256' command
+1. Download and unzip `Hash File(s).workflow.zip`.
+2. Copy `Hash File(s).workflow` to `~/Library/Services`.
 
-6. The dialogue box will be closed once you click the OK button or leave it for 30 seconds.
+## Usage
 
-7. If you have comments or questions, please hit me up.
+1. Select one or more files in Finder.
+2. Open the context menu and choose **Quick Actions > Hash File(s)**.
+3. View the file names and checksum values in the dialog. Select **OK** to close it, or wait for it to close automatically after 30 seconds.
+
+## Limitations
+
+The workflow runs the macOS `md5` and `shasum` commands. MD5 and SHA-1 are provided for checksum compatibility and should not be used where collision-resistant security is required.
+
+## License
+
+Hash4Mac is released under CC0 1.0 Universal. See [LICENSE](LICENSE).
