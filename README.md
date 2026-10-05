@@ -1,5 +1,7 @@
 # Hash4Mac
 
+[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE)
+
 Hash4Mac is an Automator Quick Action that calculates file checksums in Finder. Select one or more files to view their MD5, SHA-1, and SHA-256 values in a dialog.
 
 ### Features
